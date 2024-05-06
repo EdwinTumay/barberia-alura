@@ -1,0 +1,42 @@
+.box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #0077ff;
+    color: white;
+    text-align: center;
+}
+#one { 
+    position: sticky; 
+    top: 10px;
+    left: 50px; 
+}
+
+
+#three{
+    position: relative;
+    background: #ff2244;
+    top: 20px;
+    left: 20px;
+}
+
+#two{
+    position: absolute;
+    top: 50px;
+    left:160px;
+    background: #ff7777;
+}
+
+#four{
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    background: yellowgreen;
+}
+
+/* .outer {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    padding-left: 150px;
+  } */
